@@ -23,6 +23,12 @@ pip install -r requirements.txt
 python -m weather
 ```
 
+Badges
+
+- Docker Hub pulls: ![Docker Pulls](https://img.shields.io/docker/pulls/YOUR_DOCKERHUB_USER/weather-cli)
+- GHCR image: ![GHCR](https://img.shields.io/badge/ghcr.io-YOUR_GH_USER%2Fweather-cli-blue)
+- GitHub Actions: ![Build Status](https://github.com/devrave/Weather_AI/actions/workflows/build-and-publish.yml/badge.svg)
+
 Tests
 
 > Nota: en Windows puede ser necesario exportar `PYTHONPATH` para que `pytest` encuentre el paquete local.
